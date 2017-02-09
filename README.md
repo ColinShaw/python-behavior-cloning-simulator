@@ -69,5 +69,7 @@ image is normalized in a Keras Lambda layer.
 
 The training data has to be good for the model to work well.  If
 you have too jagged of driving, you will have jagged results 
-with the cloned behavior.  Supposing a good data set, the training is 
-quick and the car will drive quite straight!
+with the cloned behavior.  On my GTX 1060 it takes under three
+minutes to train acceptably. `screencast.mp4` is through the
+first turn of the track.
+
