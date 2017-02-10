@@ -1,7 +1,7 @@
 # Behavior Cloning
 
 This project is based on Udacity's 
-[https://github.com/udacity/self-driving-car-sim](self-driving car simulator).
+[self-driving car simulator](https://github.com/udacity/self-driving-car-sim).
 The point of the code is to train a model using augmented training 
 images in a regressive fashion to predict steering data based on 
 image data from a car.  The network in use is inspired by 
