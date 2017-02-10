@@ -1,5 +1,5 @@
-from keras.models import Model, Sequential
-from keras.layers import Convolution2D, MaxPooling2D, Dense, Activation, Dropout, Flatten, Lambda
+from keras.models import Sequential
+from keras.layers import Convolution2D, MaxPooling2D, Dense, Dropout, Flatten, Lambda
 import numpy as np
 import cv2
 import os
