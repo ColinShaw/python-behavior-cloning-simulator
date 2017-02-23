@@ -68,6 +68,4 @@ The training data has to be good for the model to work well.  If
 you have too jagged of driving, you will have jagged results 
 with the cloned behavior.  On my GTX 1060 it takes about two
 minutes to train acceptably. `screencast.mp4` is through the
-first turn of the track.
-
-![YouTube](https://youtu.be/GhBV_kMob3Y)
+first turn of the track.  Or you can watch it on [YouTube](https://youtu.be/GhBV_kMob3Y).
