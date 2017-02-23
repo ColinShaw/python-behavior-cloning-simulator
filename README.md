@@ -69,3 +69,5 @@ you have too jagged of driving, you will have jagged results
 with the cloned behavior.  On my GTX 1060 it takes about two
 minutes to train acceptably. `screencast.mp4` is through the
 first turn of the track.
+
+![screencast.mp4](screencast.mp4)
