@@ -7,6 +7,8 @@ image data from a car.  The network in use is inspired by
 the network from the NVIDIA paper [End to End Learning for Self-
 Driving Cars](https://arxiv.org/pdf/1604.07316v1.pdf). 
 
+![Track](track.jpg)
+
 The idea of the code is to make a pipeline that loads and scales the
 images, but allows a Keras generator to apply augmentation for 
 each image on a batch basis.  Since the augmentation has aspects
