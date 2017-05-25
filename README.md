@@ -4,8 +4,7 @@ This project is based on [Udacity's Self-Driving Car Simulator](https://github.c
 The point of the code is to train a model using augmented training 
 images in a regressive fashion to predict steering data based on 
 image data from a car.  The network in use is inspired by 
-the network from the NVIDIA paper [End to End Learning for Self-
-Driving Cars](https://arxiv.org/pdf/1604.07316v1.pdf). 
+the network from the NVIDIA paper [End to End Learning for Self-Driving Cars](https://arxiv.org/pdf/1604.07316v1.pdf). 
 
 ![Track](track.jpg)
 
