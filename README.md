@@ -8,12 +8,20 @@ the network from the NVIDIA paper [End to End Learning for Self-Driving Cars](ht
 
 ![Track](track.jpg)
 
+
+
+### General Idea
+
 The idea of the code is to make a pipeline that loads and scales the
 images, but allows a Keras generator to apply augmentation for 
 each image on a batch basis.  Since the augmentation has aspects
 that depends on the image not being normalized (e.g. luminance
 modifications), the normalization is done as a Keras Lambda layer
 within the model. 
+
+
+
+### Generators and Transformations
 
 The generator in this code makes use of the following transformations:
 
@@ -38,6 +46,10 @@ camera versus a centered camera image.  Too little and there is not
 enough compensation to keep the car on the road.  Too much and there
 is excessively jerky driving.  These, like other hyperparamters, 
 require some fiddling to get to work properly.
+
+
+
+### Pipeline 
 
 This model pre-processes the images on loading them by chopping the 
 horizon off and the part with the constant car features near the bottom
@@ -64,6 +76,10 @@ available I found it was not needed, as that is a very smooth
 data set.  It is easy to add if required, just a conditional on the 
 batch being created.  The augmentation is applied and the 
 image is normalized in a Keras Lambda layer.
+
+
+
+### Results
 
 The training data has to be good for the model to work well.  If
 you have too jagged of driving, you will have jagged results 
